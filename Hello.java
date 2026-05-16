@@ -54,16 +54,46 @@ class Hello {
     // System.out.println( "hi"+i);
     // i++;
     // }
-    int i=1;
-    while(i<=5){
-        System.out.println("hii"+1);
+    // int i=1;
+    // while(i<=5){
+    //     System.out.println("hii"+1);
     
-    int j=1;
-    while(j<=5){
-       System.out.println("hello"+j);
-       j++;
+    // int j=1;
+    // while(j<=5){
+    //    System.out.println("hello"+j);
+    //    j++;
+    // }
+    // i++;
+    // }
+
+    // for loop increment 
+
+    // for(int i=0; i<=5; i++){
+        // System.out.println("hello");
+    
+    // increment
+
+    // for(int i=0; i<=5; i++){
+    //     System.out.println("hello"+i);
+    // }
+    // for(int j=0; j<=9; j++){
+    //     System.out.println(j);
+    // }
+    //  for(int i=5; i>=1; i--){
+    //     System.out.println("hello"+i);
+    // }
+    // for(int j=9; j>=1; j--){
+    //     System.out.println(j);
+    // }
+    // java is object oriented programing language .
+    // class is blue print of object and object is entites of class 
+
+
+    public class calc{
+        
     }
-    i++;
-    }
+    
+
+
     }
 }
