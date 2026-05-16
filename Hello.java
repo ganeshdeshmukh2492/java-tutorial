@@ -132,7 +132,49 @@
 
 
 
-class claculator{
+// class hello{
+
+//     public int add ( int a,int b){
+//          int result=a+b;
+//         return result;
+
+//     }
+//     public static void main(String []args){
+//         int a=10;
+//         int b=20;
+//         claculator obj = new claculator();
+//         int r=obj.add( a,b);
+//         System.out.println(r);
+//     }
+// }
+
+//   same name method with diff parameter
+
+// class hello{
+//     public int add ( double,int a,int b){
+//         return ;
+//     }
+
+//     public int add ( int a,int b){
+//          int result=a+b;
+//         return result;
+
+//     }
+//     public static void main(String []args){
+//         int a=10;
+//         int b=20;
+//         claculator obj = new claculator();
+//         int r=obj.add( a,b);
+//         System.out.println(r);
+//     }
+// }
+
+
+// stack and heap
+
+// stack-lifo 
+
+class hello{
 
     public int add ( int a,int b){
          int result=a+b;
@@ -147,4 +189,3 @@ class claculator{
         System.out.println(r);
     }
 }
-
