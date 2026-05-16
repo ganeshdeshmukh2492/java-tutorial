@@ -1,5 +1,5 @@
-class Hello {
-    public static void main(String[] args) {
+// class Hello {
+//     public static void main(String[] args) {
         // System.out.println("hello, world");
         // int num1=10;
         // int num2=20;
@@ -89,11 +89,62 @@ class Hello {
     // class is blue print of object and object is entites of class 
 
 
-    public class calc{
-        
-    }
+//     public class calc{
+
+//     }
     
 
 
+//     }
+// }
+// class  car{
+//           String color ="red";
+// }
+// class hello{
+
+
+     
+//      public static void main(String []args){
+
+//          car= new  car();
+//             System.out.println(car.color);
+//         }
+
+
+// class hello{
+
+
+//     public void playmusic(){
+
+//         System.out.println( "play music");
+//     }
+//     public String getmepen(int cost ){
+//         return "pen";
+
+//     }
+//     public  static void  main(String []args)
+//     {
+//       hello obj=new hello();
+//       obj.playmusic();
+//       System.out.println(obj.getmepen(10));
+//     }
+// }
+
+
+
+class claculator{
+
+    public int add ( int a,int b){
+         int result=a+b;
+        return result;
+
+    }
+    public static void main(String []args){
+        int a=10;
+        int b=20;
+        claculator obj = new claculator();
+        int r=obj.add( a,b);
+        System.out.println(r);
     }
 }
+
