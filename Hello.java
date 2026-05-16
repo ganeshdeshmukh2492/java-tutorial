@@ -174,18 +174,40 @@
 
 // stack-lifo 
 
+// class hello{
+
+//     public int add ( int a,int b){
+//          int result=a+b;
+//         return result;
+
+//     }
+//     public static void main(String []args){
+//         int a=10;
+//         int b=20;
+//         claculator obj = new claculator();
+//         int r=obj.add( a,b);
+//         System.out.println(r);
+//     }
+// }
+
+// array
 class hello{
 
-    public int add ( int a,int b){
-         int result=a+b;
-        return result;
+    public static void main(String[]args){
+        
+        //  int num []={1,2,3,4,5};
+        //  num [1]=6;
 
-    }
-    public static void main(String []args){
-        int a=10;
-        int b=20;
-        claculator obj = new claculator();
-        int r=obj.add( a,b);
-        System.out.println(r);
+
+        int num[]= new int[4];
+        for(int i=0; i<4; i++){
+        num[0]=3;
+        num[1]=4;
+        num[2]=5;
+        num[3]=8;
+
+         
+         System.out.println(num[i]);
+        }
     }
 }
