@@ -213,22 +213,117 @@
 // }
 
 // multi dimansional array with math function
+// 
+// class hello 
+// {
+//     public static void main(String[]args){
+//     int num[]=new int [6];
+//     num[0]=2;
+//     num[1]=3;
+//     num[2]=4;
+//     num[3]=5;
+
+//     for(int i=0; inum.lenght; i++)
+//     {
+//         System.out.println(num[i]);
+//     }
+//     }
+// }
+
+
+// class students {
+//          String name;
+//         int age;
+//         int marks;
+// }
+
+// class hello{
+//     public static void main(String[ ]args){
+//          students s1= new student();
+//             s1.name="amar";
+//             s1.age=19;
+//             s1.marks=20;
+//          students s2=  new student();
+//          s2.name="john";
+//          s2.age=20;
+//          s2.marks=50;
+//          students s3=new student();
+//          s3.name="amit";
+//          s3.age=30;
+//          s3.marks=200 ;
+
+//          student students[] =new students[3];
+
+//          students[0]=s1;
+//          students[1]=s2;
+//          students[20]=s3;
+//          System.out.println(s1.name +" : ", s1.marks );
+//     }
+// }
+
+// class Student {
+//     String name;
+//     int age;
+//     int marks;
+// }
+
+// class hello {
+//     public static void main(String[] args) {
+
+//         Student s1 = new Student();
+//         s1.name = "amar";
+//         s1.age = 19;
+//         s1.marks = 20;
+
+//         Student s2 = new Student();
+//         s2.name = "john";
+//         s2.age = 20;
+//         s2.marks = 50;
+
+//         Student s3 = new Student();
+//         s3.name = "amit";
+//         s3.age = 30;
+//         s3.marks = 200;
+
+//         Student students[] = new Student[3];
+
+//         students[0] = s1;
+//         students[1] = s2;
+//         students[2] = s3;
+
+        
+//         for( int i=0; i<students.length; i++){
+//             System.out.println(Students[i].name + " : " + Students[i].marks);
+
+//         }
+//     }
+// }
+
+
+// class student {
+//     String name;
+//     int age;
+//     int marks;
+
+// }
+// class hello{
+//     public static void main( String []args){
+//         student s1 =new student()
+//         s1.name="amar";
+
+//         System.out.println( s1.name);
+
+//     }
+// }
+
+
+// stringin java
+
+
 class hello{
-      
-      public static void main(String[]args){
+    public static void main( String[]args){
+        String name= new String();
 
-
-        int num[][]= new int [3][4];
-        for( int i=0; i<3; i++){
-
-
-            for(int j=0; j<4; j++){
-
-                num [i][j]= (int)( Math.random()*10);
-                System.out.print(num [i][j] + " ");
-            }
-
-            System.out.println();
-        }
-      }
+        System.out.println(name);
+    }
 }
