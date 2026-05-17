@@ -191,23 +191,44 @@
 // }
 
 // array
-class hello{
+// class hello{
 
-    public static void main(String[]args){
+//     public static void main(String[]args){
         
-        //  int num []={1,2,3,4,5};
-        //  num [1]=6;
+//         //  int num []={1,2,3,4,5};
+//         //  num [1]=6;
 
 
-        int num[]= new int[4];
-        for(int i=0; i<4; i++){
-        num[0]=3;
-        num[1]=4;
-        num[2]=5;
-        num[3]=8;
+//         int num[]= new int[4];
+//         for(int i=0; i<4; i++){
+//         num[0]=3;
+//         num[1]=4;
+//         num[2]=5;
+//         num[3]=8;
 
          
-         System.out.println(num[i]);
+//          System.out.println(num[i]);
+//         }
+//     }
+// }
+
+// multi dimansional array with math function
+class hello{
+      
+      public static void main(String[]args){
+
+
+        int num[][]= new int [3][4];
+        for( int i=0; i<3; i++){
+
+
+            for(int j=0; j<4; j++){
+
+                num [i][j]= (int)( Math.random()*10);
+                System.out.print(num [i][j] + " ");
+            }
+
+            System.out.println();
         }
-    }
+      }
 }
