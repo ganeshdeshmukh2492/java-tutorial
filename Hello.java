@@ -320,10 +320,26 @@
 // stringin java
 
 
-class hello{
-    public static void main( String[]args){
-        String name= new String();
+// class hello{
+//     public static void main( String[]args){
+//         String name= new String();
 
-        System.out.println(name);
+//         System.out.println(name);
+//     }
+// }
+
+
+// mutable string and unmutable string
+
+
+class hello{
+    public static void main(String[]args){
+        String name="amar";
+        name=name+"reddy";
+        String s1="navin";
+        String s2="navin";
+        System.out.println(s1==s2);
+
+
     }
 }
