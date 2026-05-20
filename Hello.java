@@ -351,6 +351,10 @@ class hello{
     public static void main( String[]args){
 
         StringBuffer sb = new StringBuffer("navin");
-        System.out.println(sb.capacity());
+        // System.out.println(sb.capacity());
+        // System.out.println(sb.length());
+        sb.append("reddy" );
+        System.out.println(sb);
+
     }
 }
