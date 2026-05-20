@@ -344,17 +344,43 @@
 
 //     }
 // }
-class name {
-    String name ="navin";
+
+
+// StringBuffer and Stringbuilder
+class mobile {
+
+    String brand;
+    int price;
+    String network;
+    String name;
+ 
 }
-class hello{
-    public static void main( String[]args){
-
-        StringBuffer sb = new StringBuffer("navin");
-        // System.out.println(sb.capacity());
-        // System.out.println(sb.length());
-        sb.append("reddy" );
-        System.out.println(sb);
-
+ public void show(){
+        System.out.print(brand + " :" ,price + " :" ,  name );
     }
+class hello{
+    public static void main( String[]args)
+    {
+
+        // StringBuffer sb = new StringBuffer("navin");
+        // // System.out.println(sb.capacity());
+        // // System.out.println(sb.length());
+        // sb.append("   reddy" );
+        // sb.insert(6, "java");
+        // sb.setLength(30 );
+        // System.out.println(sb);
+
+
+        // static variable in java
+        mobile obj1 =new mobile();
+        obj1.name="iphone";
+        obj1.network="jio";
+        obj1.brand="apple";
+        obj1.price=50000;
+        obj1.show();
+    
+    }
+
 }
+
+
