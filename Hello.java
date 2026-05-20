@@ -332,14 +332,25 @@
 // mutable string and unmutable string
 
 
+// class hello{
+//     public static void main(String[]args){
+//         String name="amar";
+//         name=name+"reddy";
+//         String s1="navin";
+//         String s2="navin";
+//         Stringbuffer sb= new String( str:"naveen")
+//         System.out.println(s1==s2);
+
+
+//     }
+// }
+class name {
+    String name ="navin";
+}
 class hello{
-    public static void main(String[]args){
-        String name="amar";
-        name=name+"reddy";
-        String s1="navin";
-        String s2="navin";
-        System.out.println(s1==s2);
+    public static void main( String[]args){
 
-
+        StringBuffer sb = new StringBuffer("navin");
+        System.out.println(sb.capacity());
     }
 }
