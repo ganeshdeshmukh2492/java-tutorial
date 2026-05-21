@@ -353,10 +353,23 @@ class mobile {
     int price;
     String network;
      static String name;
+
+     static{
+        System.out,println("in static")
+     }
+
+     public(){
+            brand="smart";
+            price=15000;
+            name="phone";
+     }
  
 
  public void show(){
         System.out.println(brand + " :" ,price + " :" ,  name );
+    }
+    public static void main(){
+
     }
 }
 class hello{
