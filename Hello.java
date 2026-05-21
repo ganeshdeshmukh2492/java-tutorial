@@ -352,13 +352,15 @@ class mobile {
     String brand;
     int price;
     String network;
-    String name;
+     static String name;
  
-}
+
  public void show(){
-        System.out.print(brand + " :" ,price + " :" ,  name );
+        System.out.println(brand + " :" ,price + " :" ,  name );
     }
+}
 class hello{
+    
     public static void main( String[]args)
     {
 
@@ -377,6 +379,7 @@ class hello{
         obj1.network="jio";
         obj1.brand="apple";
         obj1.price=50000;
+        obj1.name="phone";
         obj1.show();
     
     }
