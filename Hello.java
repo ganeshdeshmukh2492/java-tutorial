@@ -347,56 +347,113 @@
 
 
 // StringBuffer and Stringbuilder
-class mobile {
 
-    String brand;
-    int price;
-    String network;
-     static String name;
+// static method and static   
+// class mobile {
 
-     static{
-        System.out,println("in static")
-     }
+//     String brand;
+//     int price;
+//     String network;
+//      static String name;
 
-     public(){
-            brand="smart";
-            price=15000;
-            name="phone";
-     }
+//      static{
+//         name="phonenm,,"
+//         System.out,println("in static")
+//      }
+
+//      public(){
+//             brand="smart";
+//             price=15000;
+//             name="phone";
+//      }
  
 
- public void show(){
-        System.out.println(brand + " :" ,price + " :" ,  name );
-    }
-    public static void main(){
+//  public void show(){
+//         System.out.println(brand + " :" ,price + " :" ,  name );
+//     }
+//     public static void main(){
 
-    }
+//     }
+// }
+// class hello{
+    
+//     public static void main( String[]args)
+//     {
+
+//         // StringBuffer sb = new StringBuffer("navin");
+//         // // System.out.println(sb.capacity());
+//         // // System.out.println(sb.length());
+//         // sb.append("   reddy" );
+//         // sb.insert(6, "java");
+//         // sb.setLength(30 );
+//         // System.out.println(sb);
+
+
+//         // static variable in java
+//         mobile obj1 =new mobile();
+//         obj1.name="iphone";
+//         obj1.network="jio";
+//         obj1.brand="apple";
+//         obj1.price=50000;
+//         obj1.name="phone";
+//         obj1.show();
+    
+//     }
+
+// }
+
+// class mobile{
+//     String brand;
+//     int price;
+//     String name;
+
+// }
+// class hello{
+
+//     public static void main(String args[]){
+//         obj mobile=new obj():
+//         obj.price=200;
+//         obj.name="iphone";
+//         obj.brand="smartphone";
+
+//     }
+// }
+//   statis variable is shared to all object 
+//   to access static word we have to use class name 
+class mobile{
+    String brand;
+    int price;
+    static String name;
+
+public void show()
+{
+  System.out.println(
+    brand +":" +name +":" +price
+  );
+}
 }
 class hello{
-    
-    public static void main( String[]args)
-    {
+public static void main(String []args){
 
-        // StringBuffer sb = new StringBuffer("navin");
-        // // System.out.println(sb.capacity());
-        // // System.out.println(sb.length());
-        // sb.append("   reddy" );
-        // sb.insert(6, "java");
-        // sb.setLength(30 );
-        // System.out.println(sb);
+     mobile obj =new mobile();
+
+     obj.brand="smartphone";
+     obj.price=200;
+     obj.name="samsung";
+
+     mobile obj2 =new mobile();
+
+     obj2.brand="smartphone";
+     obj2.price=200;
+     obj2.name="samsung";
 
 
-        // static variable in java
-        mobile obj1 =new mobile();
-        obj1.name="iphone";
-        obj1.network="jio";
-        obj1.brand="apple";
-        obj1.price=50000;
-        obj1.name="phone";
-        obj1.show();
-    
-    }
+   obj2.name="phone";
 
+     obj.show();
+     obj2.show();
+    // System.out.println(obj.name);
+    // System.out.println(obj.price);
+    // System.out.println(obj.brand);
 }
-
-
+}
