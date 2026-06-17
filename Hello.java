@@ -420,40 +420,95 @@
 // }
 //   statis variable is shared to all object 
 //   to access static word we have to use class name 
-class mobile{
-    String brand;
-    int price;
-    static String name;
+// class mobile{
+//     String brand;
+//     int price;
+//     static String name;
 
-public void show()
-{
-  System.out.println(
-    brand +":" +name +":" +price
-  );
-}
-}
-class hello{
-public static void main(String []args){
+// public void show()
+// {
+//   System.out.println(
+//     brand +":" +name +":" +price
+//   );
+// }
+// }
+// class hello{
+// public static void main(String []args){
 
-     mobile obj =new mobile();
+//      mobile obj =new mobile();
 
-     obj.brand="smartphone";
-     obj.price=200;
-     obj.name="samsung";
+//      obj.brand="smartphone";
+//      obj.price=200;
+//      obj.name="samsung";
 
-     mobile obj2 =new mobile();
+//      mobile obj2 =new mobile();
 
-     obj2.brand="smartphone";
-     obj2.price=200;
-     obj2.name="samsung";
+//      obj2.brand="smartphone";
+//      obj2.price=200;
+//      obj2.name="samsung";
 
 
-   obj2.name="phone";
+//    obj2.name="phone";
 
-     obj.show();
-     obj2.show();
+//      obj.show();
+//      obj2.show();
     // System.out.println(obj.name);
     // System.out.println(obj.price);
     // System.out.println(obj.brand);
+// }
+// }
+// class human{
+//  String name;
+//  int age;
+// }
+ 
+//  public class static void main(String args[]){
+//     human obj=new human();
+//     obj.name="ajay";
+//     obj.age=20;
+
+//     System.out.println(obj.name);
+//     System.out.println( obj.age);
+
+//  }
+
+// class human{
+//      private  String name;
+//      private int age;
+// }
+// public class hello
+// {
+//  public class static void main( String args[]){
+
+//     human obj= new human();
+
+//     obj.name="prince";
+//     obj.age=19; 
+
+//     System.out.println( obj.name);
+//  }
+//     }
+
+class Human {
+    private int age;
+    private String name;
+
+
+     public int getage(){
+        return age;
+     }
+      public void setage(int a ){
+        age=a;
+      }
+
 }
-}
+ class hello{
+
+      public static void main( String[]args){
+        Human obj= new Human();
+         obj.setage( 30);
+
+         System.out.println(obj.getage());
+
+      }
+ }
