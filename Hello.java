@@ -489,36 +489,70 @@
 //  }
 //     }
 
-class Human {
-    private int age;
-    private String name;
-        //  instant variable 
+// class Human {
+//     private int age;
+//     private String name;
+//         //  instant variable 
 
 
-    public Human( int age ,string name ){
-        this.age;
-        this.name;    
-        // constructor 
+//     public Human( int age ,string name ){
+//         this.age;
+//         this.name;    
+//         // constructor 
+//     }
+
+
+//      public int getage(){
+//         return age;
+//      }
+//       public void setage(int a ){
+//         age=a;
+//       }
+
+// }
+//  class hello{
+
+//       public static void main( String[]args){
+
+//         // object
+//         Human obj= new Human();
+//          obj.setage( 30);
+
+//          System.out.println(obj.getage());
+
+//       }
+//  }
+
+
+//  camel casing 
+//  class -  should first letter be capital such as (Calc )
+//  variable and method -should first letter be small such as (show(), marks )\
+//  constant -PIE BRAND 
+
+// shoMyMaarks()
+// MyData
+
+// age Data Human()
+
+
+class A{
+
+    public A(){
+        System.out.println("object created");
+    } 
+    public void show(){
+        System.out.println("in A show");
     }
 
-
-     public int getage(){
-        return age;
-     }
-      public void setage(int a ){
-        age=a;
-      }
-
 }
- class hello{
 
-      public static void main( String[]args){
+ public class hello{
 
-        // object
-        Human obj= new Human();
-         obj.setage( 30);
+    public static void main( String []args){
 
-         System.out.println(obj.getage());
+    A obj= new A();
+    obj.show();
+        
 
-      }
- }
+    }
+}
