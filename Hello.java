@@ -535,24 +535,24 @@
 // age Data Human()
 
 
-class A{
+// class A{
 
-    public A(){
-        System.out.println("object created");
-    } 
-    public void show(){
-        System.out.println("in A show");
-    }
+//     public A(){
+//         System.out.println("object created");
+//     } 
+//     public void show(){
+//         System.out.println("in A show");
+//     }
 
-}
+// }
 
- public class hello{
+//  public class hello{
 
-    public static void main( String []args){
+//     public static void main( String []args){
 
-    A obj= new A();
-    obj.show();
+//     A obj= new A();
+//     obj.show();
         
 
-    }
-}
+//     }
+// }
