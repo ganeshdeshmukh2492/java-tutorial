@@ -492,6 +492,14 @@
 class Human {
     private int age;
     private String name;
+        //  instant variable 
+
+
+    public Human( int age ,string name ){
+        this.age;
+        this.name;    
+        // constructor 
+    }
 
 
      public int getage(){
@@ -505,6 +513,8 @@ class Human {
  class hello{
 
       public static void main( String[]args){
+
+        // object
         Human obj= new Human();
          obj.setage( 30);
 
