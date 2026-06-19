@@ -583,34 +583,34 @@
 //     }
 // }
 
-class Calc {
+// class Calc {
 
-    public int div(int n1,int n2)
-    {
-        return n1/n2;
-    }
-    public int mult(int n1,int n2){
-        return n1*n2;
-    }
-    public class AdvCalc extends Calc{
-        public int add(int n1,int n2)
-    {
-        return n1+n2;
-    }
-    public int sub(int n1,int n2){
-        return n1-n2;
-    }
-    }
-    public class hello{
-         public static void main (String[]args){
-            Calc obj=new Calc();
-            int rq=obj.div(20,10);
-            int r2=obj.mult(20,30);
-            int r3=obj.add(20,30);
-            int r4=obj.sub(30,20);
+//     public int div(int n1,int n2)
+//     {
+//         return n1/n2;
+//     }
+//     public int mult(int n1,int n2){
+//         return n1*n2;
+//     }
+//     public class AdvCalc extends Calc{
+//         public int add(int n1,int n2)
+//     {
+//         return n1+n2;
+//     }
+//     public int sub(int n1,int n2){
+//         return n1-n2;
+//     }
+//     }
+//     public class hello{
+//          public static void main (String[]args){
+//             Calc obj=new Calc();
+//             int rq=obj.div(20,10);
+//             int r2=obj.mult(20,30);
+//             int r3=obj.add(20,30);
+//             int r4=obj.sub(30,20);
 
-            System.out.println(r3 + " " + r4+" "+ r1 +" "+r2);
+//             System.out.println(r3 + " " + r4+" "+ r1 +" "+r2);
     
-         }
-    }
-}
+//          }
+//     }
+// }
