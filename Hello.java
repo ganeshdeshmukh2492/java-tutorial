@@ -614,3 +614,33 @@
 //          }
 //     }
 // }
+
+class A{
+    void show(){
+        System.out.println("class A");
+    }
+
+}
+class B extends A{
+    void show(){
+        System.out.println("class B ");
+    }
+
+}
+class C extends B{
+    void show(){
+        System.out.println("class C");
+    }
+
+}
+public class hello{
+     
+     public static void main( String[]args){
+        C obj=new C();
+        obj.showA();
+        obj.showB();
+        obj.showC();
+
+
+     }
+}
