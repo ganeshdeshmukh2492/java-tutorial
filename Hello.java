@@ -614,33 +614,93 @@
 //          }
 //     }
 // }
+//    multilevel inheritance 
+// class A{
+//     void show(){
+//         System.out.println("class A");
+//     }
 
-class A{
-    void show(){
-        System.out.println("class A");
-    }
+// }
+// class B extends A{
+//     void show(){
+//         System.out.println("class B ");
+//     }
 
-}
-class B extends A{
-    void show(){
-        System.out.println("class B ");
-    }
+// }
+// class C extends B{
+//     void show(){
+//         System.out.println("class C");
+//     }
 
-}
-class C extends B{
-    void show(){
-        System.out.println("class C");
-    }
-
-}
-public class hello{
+// }
+// public class hello{
      
-     public static void main( String[]args){
-        C obj=new C();
-        obj.showA();
-        obj.showB();
-        obj.showC();
+//      public static void main( String[]args){
+//         C obj=new C();
+//         obj.showA();
+//         obj.showB();
+//         obj.showC();
 
 
-     }
+//      }
+// }
+// .ENCAPSULATION
+
+class Human {
+    private String name;
+    private int age;
+
+    // Setter methods
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    // Getter methods
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
 }
+
+public class hello {
+    public static void main(String[] args) {
+
+        Human obj = new Human();
+
+        obj.setName("Ganesh");
+        obj.setAge(20);
+
+        System.out.println(obj.getName());
+        System.out.println(obj.getAge());
+    }
+}
+// method overridding 
+
+
+// class A {
+//     public  void show(){
+//         System.out.println("in show");
+
+//     }
+//     public void config(){
+//         System.out.println("in B");
+//     }
+
+// }
+
+// class hello
+// {
+//     public static void main ( String[] args){
+//         A obj= new A();
+//         obj.show();
+//         obj.config();
+
+//     }
+// }
