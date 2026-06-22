@@ -646,41 +646,41 @@
 // }
 // .ENCAPSULATION
 
-class Human {
-    private String name;
-    private int age;
+// class Human {
+//     private String name;
+//     private int age;
 
-    // Setter methods
-    public void setName(String name) {
-        this.name = name;
-    }
+//     // Setter methods
+//     public void setName(String name) {
+//         this.name = name;
+//     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+//     public void setAge(int age) {
+//         this.age = age;
+//     }
 
-    // Getter methods
-    public String getName() {
-        return name;
-    }
+//     // Getter methods
+//     public String getName() {
+//         return name;
+//     }
 
-    public int getAge() {
-        return age;
-    }
-}
+//     public int getAge() {
+//         return age;
+//     }
+// }
 
-public class hello {
-    public static void main(String[] args) {
+// public class hello {
+//     public static void main(String[] args) {
 
-        Human obj = new Human();
+//         Human obj = new Human();
 
-        obj.setName("Ganesh");
-        obj.setAge(20);
+//         obj.setName("Ganesh");
+//         obj.setAge(20);
 
-        System.out.println(obj.getName());
-        System.out.println(obj.getAge());
-    }
-}
+//         System.out.println(obj.getName());
+//         System.out.println(obj.getAge());
+//     }
+// }
 // method overridding 
 
 
@@ -704,3 +704,35 @@ public class hello {
 
 //     }
 // }
+
+
+// package tools;
+
+// public class hello{
+//     public void show(){
+//         System.out.println("welcome to java package ");
+//     }
+// }
+
+// polymarphism -(many behaviour )
+
+
+// there are two types of polymorphism 
+
+// 1) run time polymorphism 
+// 2)compile time polymorphism  
+
+
+
+class A{
+
+}
+class B extends A{
+
+}
+public class hello{
+   public  static void main( String[]args)
+   {
+
+   }
+}
