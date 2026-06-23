@@ -1,4 +1,4 @@
-// class Hello {
+// class hello {
 //     public static void main(String[] args) {
         // System.out.println("hello, world");
         // int num1=10;
@@ -724,15 +724,63 @@
 
 
 
-class A{
+// class A{
+//     public void show(){
+//         System.out.println("in class A");
+//     }
+//     }
+
+
+// class B extends A{
+
+// }
+// class C extends A{
+//     public void show (){
+//         System.out.println("in c show ");
+//     }
+// }
+// public class hello{
+//    public  static void main( String[]args)
+//    {
+//     A obj= new B();
+//     obj.show();
+
+//    }
+// }
+
+// final keywords/
+// once we created we cannot change 
+// public class  hello{
+
+// public static void main(String[]args){
+//     final int num=10;
+//        num=20;
+//      System.out.println(num);
+
+// }
+// }
+// final class means stop inheritance 
+
+class calc{
+
+    public void show(){
+        System.out.println("in clac show");
+    }
+    public void  add(int a,int b){
+        System.out.println(a+b);
+    }
+}
+// stop inheritance 
+class advcalc extends calc{
+
 
 }
-class B extends A{
-
+class hello{
+public static void main( String[]args){
+    calc obj=new calc();
+    
+        obj.show();
+        obj.add(10,20);
+    }
 }
-public class hello{
-   public  static void main( String[]args)
-   {
 
-   }
-}
