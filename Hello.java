@@ -761,26 +761,42 @@
 // }
 // final class means stop inheritance 
 
-class calc{
+// class calc{
 
-    public void show(){
-        System.out.println("in clac show");
-    }
-    public void  add(int a,int b){
-        System.out.println(a+b);
-    }
-}
-// stop inheritance 
-class advcalc extends calc{
+//     public void show(){
+//         System.out.println("in clac show");
+//     }
+//     public void  add(int a,int b){
+//         System.out.println(a+b);
+//     }
+// }
+// // stop inheritance 
+// class advcalc extends calc{
 
 
-}
-class hello{
-public static void main( String[]args){
-    calc obj=new calc();
+// }
+// class hello{
+// public static void main( String[]args){
+//     calc obj=new calc();
     
-        obj.show();
-        obj.add(10,20);
+//         obj.show();
+//         obj.add(10,20);
+//     }
+// }
+// hash code in java 
+
+class student{
+
+}
+public class hello{
+    public static void main(String[]args){
+        student s1= new student();
+        student s2= new student();
+    
+        System.out.println(s1.hashCode());
+        System.out.println(s2.hashCode());
+        System.out.println(s1.toString());
+
     }
 }
 
