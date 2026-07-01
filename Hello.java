@@ -832,39 +832,46 @@
 //     }
 // }
 
-class A{
-    public void show()
-    {
-        System.out.println("");
-    }
-}
-class B{
-    public void config(){
-        System.out.println("in config");
-    }
-}
-public class hello{
-    public static void main( String[]args){
-        A obj= new  A();
-        obj.show();
-        // B  obj1= new B();
-        // obj.show();
+// class A{
+//     public void show()
+//     {
+//         System.out.println("");
+//     }
+// }
+// class B{
+//     public void config(){
+//         System.out.println("in config");
+//     }
+// }
+// public class hello{
+//     public static void main( String[]args){
+//         A obj= new  A();
+//         obj.show();
+//         // B  obj1= new B();
+//         // obj.show();
 
  
-    }
-}
+//     }
+// }
 
 // anynomous inner class 
 
-// class A{
-//     public void show(){
-//         system.out.println("")
-//     }
-// }
-// public class hello {
-//     public static void main(String[]args){
+class A{
+    public void show(){
+        System.out.println("in A show ");
+    }
+}
+public class hello {
+    public static void main(String[]args){
+        A obj=new A()
+        {
+            public void show(){
+                System.out.println("in a new show ");
+            }
+        };
+        obj.show();
 
-//     }
+    }
 
     
-// }
+}
