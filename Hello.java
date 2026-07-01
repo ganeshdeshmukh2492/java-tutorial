@@ -785,18 +785,86 @@
 // }
 // hash code in java 
 
-class student{
+// class student{
 
+// }
+// public class hello{
+//     public static void main(String[]args){
+//         student s1= new student();
+//         student s2= new student();
+    
+//         System.out.println(s1.hashCode());
+//         System.out.println(s2.hashCode());
+//         System.out.println(s1.toString());
+
+//     }
+// }
+
+// tostringi java 
+// class student{
+
+// }
+// public class hello{
+//     public static void main(String[]args){
+//         student s1= new student();
+//         student s2= new student();
+    
+//         System.out.println(s1.toString());
+//         System.out.println(s2.toString());
+//         System.out.println(s1.toString());
+
+//     }
+// }
+// class A{
+//     public void show1(){
+//         System.out.println("in class A");
+//     }
+// }
+// class B extends A{
+//     public void show2(){
+//         System.out.println("in class B");
+//     }
+// }
+// public class hello{
+//     public static void main(String[]args){
+//         A obj= (A)new B();
+//         obj.show1();
+//     }
+// }
+
+class A{
+    public void show()
+    {
+        System.out.println("");
+    }
+}
+class B{
+    public void config(){
+        System.out.println("in config");
+    }
 }
 public class hello{
-    public static void main(String[]args){
-        student s1= new student();
-        student s2= new student();
-    
-        System.out.println(s1.hashCode());
-        System.out.println(s2.hashCode());
-        System.out.println(s1.toString());
+    public static void main( String[]args){
+        A obj= new  A();
+        obj.show();
+        // B  obj1= new B();
+        // obj.show();
 
+ 
     }
 }
 
+// anynomous inner class 
+
+// class A{
+//     public void show(){
+//         system.out.println("")
+//     }
+// }
+// public class hello {
+//     public static void main(String[]args){
+
+//     }
+
+    
+// }
