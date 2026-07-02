@@ -856,22 +856,50 @@
 
 // anynomous inner class 
 
-class A{
-    public void show(){
-        System.out.println("in A show ");
-    }
-}
-public class hello {
-    public static void main(String[]args){
-        A obj=new A()
-        {
-            public void show(){
-                System.out.println("in a new show ");
-            }
-        };
-        obj.show();
+// class A{
+//     public void show(){
+//         System.out.println("in A show ");
+//     }
+// }
+// public class hello {
+//     public static void main(String[]args){
+//         A obj=new A()
+//         {
+//             public void show(){
+//                 System.out.println("in a new show ");
+//             }
+//         };
+//         obj.show();
 
-    }
+//     }
 
     
+// }
+interface computer{
+    void code();
+
+}
+class laptop implements computer{
+    public void code(){
+        System.out.println("coding");
+    }
+}
+class desktop implements computer{
+     public void code(){
+        System.out.println("compile run");
+    }
+}
+class developers{
+     public void devapp(laptop lap){
+        lap.code();
+     }
+}
+public class hello{
+    public  static void main( String[]args){
+         computer lap= new  laptop();
+         computer desk= new desktop();
+
+        developers navin= new developers();
+        navin.devapp(desk);
+    }
 }
